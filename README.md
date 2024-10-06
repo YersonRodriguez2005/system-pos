@@ -1,6 +1,5 @@
 # Sistema POS - Restaurante
 
-![Logo](https://example.com/logo.png) <!-- Cambia esto por la URL de tu logo -->
 
 ## Descripción
 
