@@ -1,0 +1,89 @@
+/* General styles for the product list */
+.product-list {
+    background-color: #1e1e1e;
+    color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #ff6347;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #292929;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+li:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Ajustar la disposición de los elementos en el li */
+.product-name {
+    font-size: 18px;
+    color: #f4f4f4;
+    font-weight: 600;
+    text-align: left;
+    flex-grow: 1;
+    margin-right: 40px;
+}
+
+.product-price {
+    font-size: 16px;
+    color: #a9a9a9;
+    margin-right: 15px;
+    text-align: right;
+}
+
+/* Estilos del botón */
+button {
+    background-color: #ff6347;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #ff4500;
+    transform: scale(1.05);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .product-name {
+        margin-bottom: 8px;
+    }
+
+    button {
+        width: 100%;
+        text-align: center;
+    }
+}

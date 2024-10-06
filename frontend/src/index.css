@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+  font-family: 'Rubik', Times, serif;
+  background-color: #1e1e1e;
+  color: #f4f4f4;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.nav {
+  background-color: #292929;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  color: #ff6347;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ff4500;
+}
+
+
+/* Main title styles */
+h1 {
+  font-size: 32px;
+  color: #ff6347; /* Tomato color */
+  margin-bottom: 40px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* POS container for the product list and the cart */
+.pos-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Responsive layout for mobile devices */
+@media (max-width: 768px) {
+  .pos-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  h1 {
+      font-size: 24px;
+  }
+}

@@ -1,0 +1,113 @@
+/* General styles for the cart */
+.cart {
+    background-color: #1e1e1e;
+    color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #ff6347; /* Tomato color */
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #292929;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+li:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    background-color: #ff6347;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 15px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #ff4500; /* Darker tomato color */
+    transform: scale(1.05);
+}
+
+/* Total and cash input styles */
+p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    background-color: #292929;
+    color: #f4f4f4;
+    border: 1px solid #ff6347;
+    border-radius: 6px;
+    padding: 10px;
+    width: calc(100% - 22px);
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #ff4500;
+    background-color: #1e1e1e;
+}
+
+/* Register sale button */
+button.register-sale {
+    width: 100%;
+    padding: 20px;
+    background-color: #32CD32; /* LimeGreen color */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button.register-sale:hover {
+    background-color: #2eb82e; /* Darker green */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    button {
+        width: 100%;
+        text-align: center;
+    }
+
+    input[type="number"] {
+        font-size: 14px;
+    }
+
+    button.register-sale {
+        font-size: 14px;
+    }
+}
