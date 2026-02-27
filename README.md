@@ -69,6 +69,6 @@ Este proyecto está bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE
 
 ## Contacto
 
-- **Autor**: Tu Nombre
-- **Email**: tuemail@example.com
-- **GitHub**: [tu_usuario](https://github.com/tu_usuario)
+- **Autor**: Yerson Rodriguez
+- **Email**: rodriguezyerson2005@gmail.com
+- **GitHub**: [YersonRodriguez2005](https://github.com/YersonRodriguez2005)
